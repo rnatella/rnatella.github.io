@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page of Roberto Natella</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/bootstrap-flatly.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/social-buttons.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+
+		<div class="container-fluid">
+
+
+			<div class="hero-unit">
+				<h2>Home Page of Roberto Natella</h2>
+
+				<br/>
+
+				<div class="row-fluid">
+
+					<div class="span10">
+					I am Associate Professor in Computer Engineering at the <a href="https://www.unina.it">Federico II University of Naples</a>, Italy. My research interests are in the field of software security and dependability. The main recurring theme of my research activity is the experimental injection of faults, attacks, and stressful conditions. My research topics include:
+					<ul>
+						<li>fuzzing and static analysis</li>
+						<li>red teaming, adversary emulation, cyber ranges</li>
+						<li>cyber threat intelligence</li>
+						<li>machine learning techniques for security</li>
+						<li>fault injection, robustness testing, dependability benchmarking</li>
+						<li>software aging and rejuvenation</li>
+						<li>applications in operating systems and in cloud, mobile, embedded, and virtualization technologies</li>
+					</ul>
+
+					In 2022, I received the <a href="https://www.dependability.org/rising-star.html">DSN Rising Star in Dependability Award</a> from the IEEE Technical Committee on Dependable Computing and Fault Tolerance (TCFT) and the IFIP Working Group 10.4 on Dependable Computing and Fault Tolerance, for research achievements within 10 years after PhD graduation.
+
+					<br/><br/>
+					
+					<a href="https://linkedin.com/in/robertonatella/"><button class="btn btn-small btn-linkedin" style="margin-bottom: 15pt"><i class="icon-linkedin"></i> | Connect with LinkedIn</button></a>
+					<br/>
+					
+
+					
+					</div>
+
+					<div class="span2">
+						<span class="border border-primary">
+						<img src="img/foto.jpg" style="border: 1px solid">
+						</span>
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+		<br/><br/>
+
+
+			<div class="row-fluid">
+
+				<div class="span10 offset1">
+
+					<h1>Publications, datasets, tools</h1>
+
+					<br/>
+
+					For an up-to-date list of publications, please see my page on <a href="https://scholar.google.it/citations?hl=it&user=odmRBNgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> and <a href="https://dblp.org/pid/63/8166.html" target="_blank">DBLP</a>. Most of my recent publications are also available on the <a href="https://arxiv.org/search/?query=natella+roberto&searchtype=author&abstracts=hide&order=-announced_date_first&size=50" target="_blank">arXiv</a> open-access repository.
+
+					<br/><br/>
+					
+					<a href="https://scholar.google.it/citations?hl=it&user=odmRBNgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"><img src="img/scholar_logo_64dp.png"></a> &nbsp; &nbsp; 
+					<a href="https://dblp.org/pid/63/8166.html" target="_blank"><img src="img/DBLP_Logo_320x120.png"></a> &nbsp; &nbsp; 
+					<a href="https://arxiv.org/search/?query=natella+roberto&searchtype=author&abstracts=hide&order=-announced_date_first&size=50" target="_blank"><img src="img/ArXiv_logo_2022.png"></a>
+					<br/><br/><br/>
+
+					You can also find open-source tools and datasets related to my research, on the <a href="https://github.com/dessertlab" target="_blank">GitHub DESSERT research group</a> and on my own <a href="https://github.com/rnatella" target="_blank">GitHub account</a>.
+
+					<br/><br/>
+
+					<a href="https://github.com/rnatella" target="_blank"><img src="img/github.png" style="width:30%;"></a>
+
+					<br/><br/><br/>
+
+
+
+					
+					<h1>Research Interests</h1>
+
+					<br/>
+
+					<div class="row-fluid">
+
+						<h3>Fault Injection and Robustness Testing</h3>
+
+						<div class="row-fluid">
+
+							<div class="span7">
+
+								<p>
+								The occurrence of severe software-related accidents highlights the need for assuring that complex systems are able to operate even in the presence of faulty software. Software Fault Injection is the <strong>deliberate injection</strong> of software faults or errors into a component, in order to assess fault-tolerance and robustness properties. Two fundamental issues arise:
+
+								<dl class="dl-horizontal">
+									<dt>Representativeness</dt>
+									<dd>What should be injected to perform meaningful and relevant fault injection experiments (e.g., find robustness issues that do actually matter)?</dd>
+									<dt>Efficiency</dt>
+									<dd>Can we keep small the number and duration of experiments and, at the same time, obtain useful results (e.g., quickly find robustness issues)?</dd>
+								</dl>
+
+								See also:
+								<ul>
+									<li><a href="publications.html#acm_surveys">Assessing Dependability with Software Fault Injection, ACM Computing Surveys, 2016</a></li>
+									<li><a href="publications.html#fault_injection_certification">Fault Injection for Software Certification, IEEE S&amp;P, Jul/Aug 2013</a></li>
+									<li><a href="publications.html#fault_representativeness">On Fault Representativeness of Software Fault Injection, IEEE TSE 39(1), 2013</a></li>
+								</ul>
+								</p>
+							</div>
+
+							<div class="span5">
+
+    <div id="carousel_fi" class="carousel slide">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src="img/fault_injection_1.png" class="img-polaroid"></div>
+        <div class="item"><img src="img/fault_injection_2.png" class="img-polaroid"></div>
+      </div>
+      <!-- Carousel indicators -->
+      <!--
+      <ol class="carousel-indicators">
+        <li data-target="#carousel_fi" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel_fi" data-slide-to="1"></li>
+      </ol>
+      -->
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#carousel_fi" data-slide="prev" style="top: 85%">&lsaquo;</a>
+      <a class="carousel-control right" href="#carousel_fi" data-slide="next" style="top: 85%">&rsaquo;</a>
+    </div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<br/><br/><br/><br/>
+
+
+					<div class="row-fluid">
+
+						<h3>Software Aging and Rejuvenation</h3>
+
+						<div class="row-fluid">
+
+							<div class="span7">
+
+								<p>
+								When software systems are executed continuously for <strong>long time periods</strong>, they tend to exhibit degraded performance and are more prone to fail. This phenomenon, namely <strong>software aging</strong>, is caused by elusive software bugs ("<strong>Mandelbugs</strong>") that gradually corrupt the software state, such as memory leak bugs. On one hand, software aging can be mitigated by <strong>preemptively rejuvenating</strong> the software, i.e., bringing it into an aging-free state, for instance by restarting it. On the other hand, software aging can be avoided by <strong>detecting and fixing</strong> bugs, such as through performance and resource consumption tests.
+								</p>
+
+								See also:
+								<ul>
+									<li><a href="publications.html#aging_survey">A Survey of Software Aging and Rejuvenation Studies, ACM JETC 10(1), 2014</a></li>
+									<li><a href="publications.html#aging_related_bugs">Predicting Aging-Related Bugs using Software Complexity Metrics, Performance Evaluation 70(3), 2013</a>
+									<li><a href="publications.html#mandelbugs">Analysis and Prediction of Mandelbugs in an Industrial Software System, ICST 2013</a></li>
+								</ul>
+								</p>
+
+							</div>
+
+							<div class="span5">
+								<img src="img/software_aging.png" class="img-polaroid">
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<br/><br/><br/><br/>
+
+
+		<div class="row-fluid">
+
+			<div class="span10 offset1">
+
+				<div class="well">
+
+					<h1>Contact information</h1>
+					<br/>
+
+					<dl class="dl-horizontal">
+
+					<dt><i class="icon-envelope"></i> Email</dt>
+					<dd>roberto dot natella at unina dot it</dd>
+
+					<br/>
+
+					<dt><i class="icon-map-marker"></i> Address</dt>
+					<dd>DIETI Department, Via Claudio 21, 80125, Napoli, Italy</dd>
+					<dd>Building 3/A, Office 4.18</dd>
+
+				</dl>
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<br/><br/><br/>
+
+
+		<div class="row-fluid">
+
+			<div class="span10 offset1">
+
+				<div align="center">
+
+					<a href="https://www.unina.it"><img src="img/logo_unina.png"></a>
+
+					<a href="https://www.consorzio-cini.it"><img src="img/logo_cini.png"></a>
+
+					<a href="https://www.dessert.unina.it"><img src="img/dessert-logo-new.png" style="height: 100pt"></a>
+
+					<a href="https://www.critiware.com"><img src="img/logo_critiware.png"></a>
+
+				</div>
+			</div>
+
+		</div>
+
+		<br/><br/><br/>
+
+		<footer>
+		</footer>
+
+
+	</div> <!-- /container -->
+
+
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60J4FP5F9H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-60J4FP5F9H');
+</script>
+
+
+</body>
+
+</html>
